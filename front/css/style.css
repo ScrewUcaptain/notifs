@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 50px;
+}
+
+#logged {
+  display: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.me {
+  text-align: right;
+}
+
+#cancelButton {
+  background-color: red;
+}
+
+#edit {
+  display: none;
+}
+
+.notif {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: flex-start;
+  width: 150px;
+  background-color: rgb(41, 130, 150);
+  border-radius: 15px;
+  color: aliceblue;
+}
+
+.notifNumber {
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 20px;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.notifContent {
+}
